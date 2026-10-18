@@ -1,0 +1,20 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permissions": [
+    {
+      "action": "file:edit",
+      "resource": "**/*",
+      "effect": "allow"
+    },
+    {
+      "action": "file:edit",
+      "resource": "../*",
+      "effect": "deny"
+    },
+    {
+      "action": "shell",
+      "resource": "*",
+      "effect": "ask"
+    }
+  ]
+}
